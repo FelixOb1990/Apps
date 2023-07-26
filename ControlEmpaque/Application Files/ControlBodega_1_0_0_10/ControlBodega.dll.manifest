@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ControlBodega.exe" version="1.0.0.10" publicKeyToken="d4ad6a8721fe5037" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17376">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tRUfSvfWjXBI6zV9sqyX8OsJCqtA3x34vkGeAYRnjW0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ControlBodega.exe" size="36917576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>92Ak37qLoWvS9Yl2g6QpxwpeiPO13XXZ4dv7jDhmygo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ControlPersonalizado.pdb" size="16212">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cMN6zctK6viilqeLPpBHbA74AMtzvlJ6hRM86cOzJVE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataBase.dll.config" size="782">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iKKDvRtYGKmt4U/rnZ2wukTUDWE4dx1EItPZP89T/x4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataBase.pdb" size="19856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k+b9QmvJdMRTHCwOUklH2iyY+cKwY/Iw/huoQgkYOhs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ico.ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2Gefv1LNFY3ias6DK+DSczV/oWBF+OLsFaRRel93W+c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="REGLASNEGOCIO.pdb" size="14308">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>q8Nz65VFKs8GoarE4T5EHffMn6h2NhLgEq73mjtiors=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sni.dll" size="160040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aHBcTvmrgY8pVqeOBfP+/OUBoUSHk7BztGEQvrSbR9Y=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-SA48L06\Felix" issuerKeyHash="ae05374b7573f7a92e685ab1208560747d18128c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UdTrOU/1oOO1W/W69lQwzLe9aEJmx0XzUNLHE0Ne3WI=</DigestValue></Reference></SignedInfo><SignatureValue>AATNTTdj+BqogZy8ZvGsN4/aHf3xdCs3MvRTIFaO87Meg1pQ52q1HRsLkUT8S7Pg68DxrB5wfgnSkgTzQGHiLcLfaB8zB1xPAEmBIxsp91CUh9RxdxFncJC1ywEE9uKR2wNR6Bcp9zETsaMrMeSp6BdGAHXZ3SDJaGouMjyKEGU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>+yFQUKTkYz1qYzj7whGRr4P8N2po+zg106geVIW6lkFVicVKAx7JrczfnVDMiQnluelHDy26yC7NLhhQBuh1rgrvTCK/7HoxQ8ZR2m6yk4TMvta8gI7E3tyoikpDzj5fEc7rmbvx4rISp9jnNflkP+m2xTUuN8p7pLG3O+IpcfE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="62dd5e4313c7d250f345c7664268bdb7cc3054f6baf55bb5e3a0f54f39ebd451" Description="" Url=""><as:assemblyIdentity name="ControlBodega.exe" version="1.0.0.10" publicKeyToken="d4ad6a8721fe5037" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-SA48L06\Felix</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9JvQIFuRjrIUtn6gELApyb8bv0dWfg80rpwABaQ30/4=</DigestValue></Reference></SignedInfo><SignatureValue>JFdBff6rrm1vra1HyFjfHY6sx3nUO48ZjdIV+kjG6VsA+FzQDIjAHasjm0fQOmmcUzLR2CB1Q309AS08vjezb9w09x0QrLtqij3dfNAb/C4CfH+a6CHMxNJ956gL3jeOFAgtZlQszTeCAeoGRyNUwSc3G2SOmgx4zshuVqG1Tjc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>+yFQUKTkYz1qYzj7whGRr4P8N2po+zg106geVIW6lkFVicVKAx7JrczfnVDMiQnluelHDy26yC7NLhhQBuh1rgrvTCK/7HoxQ8ZR2m6yk4TMvta8gI7E3tyoikpDzj5fEc7rmbvx4rISp9jnNflkP+m2xTUuN8p7pLG3O+IpcfE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQI2/9Xj86i7FFaHBIIFJIqDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFMAQQA0ADgATAAwADYAXABGAGUAbABpAHgwHhcNMjMwNzI2MDQzMDI0WhcNMjQwNzI1MTAzMDI0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFMAQQA0ADgATAAwADYAXABGAGUAbABpAHgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPshUFCk5GM9amM4+8IRka+D/DdqaPs4NdOoHlSFupZBVYnFSgMeya3M351QzIkJ5bnpRw8tusguzS4YUAboda4K70wiv+x6MUPGUdpuspOEzL7WvICOxN7cqIpKQ84+XxHO65m78eKyEqfY5zX5ZD/ptsU1LjfKe6SxtzviKXHxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAIQUmTUYvTpFtbVqL+/HPucf7TBd2kVj3WUN+9LyUtfa0uQ4n61RznmisYSl2i221XtXb6/uLtOLBjRdzlySxuaN91TdWYrP4qkhxSp/5+GNEJIMre8nqsr31BhvznRX0FkrzSzr4w8+iE/bQAMcqbGGz+xR95NkhPLuaP2h7fog=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
